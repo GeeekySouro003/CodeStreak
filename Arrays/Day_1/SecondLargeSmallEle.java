@@ -19,7 +19,7 @@ public class SecondLargeSmallEle {
                 secondSmallest = arr[i];
             }
         }
-        //return secondSmallest == Integer.MAX_VALUE ? -1 : secondSmallest; // Handle edge cases
+        return secondSmallest == Integer.MAX_VALUE ? -1 : secondSmallest; // Handle edge cases
     }
 
     // Method to find the second largest element in the array
@@ -38,7 +38,7 @@ public class SecondLargeSmallEle {
                 secondlargest = arr[i];
             }
         }
-        //return secondlargest == Integer.MIN_VALUE ? -1 : secondlargest; // Handle edge cases
+        return secondlargest == Integer.MIN_VALUE ? -1 : secondlargest; // Handle edge cases
     }
 
     // Main method
