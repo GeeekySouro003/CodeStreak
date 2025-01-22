@@ -1,0 +1,70 @@
+# Ignore build output directories
+/bin/
+/build/
+out/
+
+# IntelliJ IDEA specific files
+/.idea/
+/*.iml
+
+# Eclipse specific files
+/.settings/
+/*.launch
+/.project
+/.classpath
+
+# NetBeans specific files
+/nbproject/private/
+/build/
+/dist/
+
+# Maven specific files
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+/dependency-reduced-pom.xml
+/release.properties
+
+# Gradle specific files
+/.gradle/
+/build/
+/.gradle/
+/gradle-app.setting
+gradle-wrapper.jar
+.gradle-wrapper.properties
+*.lock
+
+# Common directories and files
+*.class
+*.war
+*.ear
+*.jar
+
+# Logs
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Generated files
+*.generated
+gen/
+
+# Java IDE or Tools
+/.classpath
+/.project
+/.factorypath
+
+# Sensitive or Environment files
+.env
+secrets/
