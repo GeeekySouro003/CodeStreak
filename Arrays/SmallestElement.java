@@ -1,4 +1,5 @@
 package Arrays;
+//IMPROVE THE LOGIC OF 10,100,1000S IN LEXOGRAPHICAL MANNER
 
 import java.util.Scanner;
 
