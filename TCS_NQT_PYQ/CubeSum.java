@@ -5,6 +5,7 @@ public class CubeSum {
         for(int i=start;i<end;i++) {
             cubesum+=Math.pow(i,3);
         }
+        
         System.out.println(cubesum);
     }
     public static void main(String args[]) {
