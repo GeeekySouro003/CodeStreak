@@ -9,6 +9,7 @@ public class HappyNumber {
         else if (n < 10) return false;
 
         else {
+            
             int sum = 0;
             // Calculate the sum of squares of digits
             while (n != 0) {
