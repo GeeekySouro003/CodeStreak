@@ -8,6 +8,7 @@ public class CubeSum {
         
         System.out.println(cubesum);
     }
+    
     public static void main(String args[]) {
         Scanner sc=new Scanner(System.in);
         int start=sc.nextInt();
